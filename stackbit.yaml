@@ -1,24 +1,13 @@
 stackbitVersion: ~0.3.0
-ssgName: nextjs
-cmsName: git
-buildCommand: npm run build
-publishDir: out
-assets:
-  referenceType: static
-  staticDir: public
-  uploadDir: images
-  publicPath: /
-dataDir: content/data
-pagesDir: content/pages
+ssgName: jekyll
+ssgVersion: 3.8.4
+buildCommand: jekyll build
+publishDir: _site
+staticDir: ''
+uploadDir: images
+dataDir: _data
+pagesDir: ''
 pageLayoutKey: layout
-pageData:
-  - pagePath: /
-    initialExpandedPaths:
-      - '[0]'
-      - '[0].fields.sections'
-      - '[0].fields.sections.items[0]'
-      - '[0].fields.sections.items[0].fields.title'
-      - '[0].fields.sections.items[0].fields.subtitle'
 sourceMapping:
   - source:
       fieldPath: author.name
@@ -147,19 +136,11 @@ models:
         description: Site title
         required: true
       - type: string
-        name: path_prefix
-        label: Base URL
-        description: >-
-          The base URL of this site. Useful for sites hosted under specific
-          path, e.g.: https://www.example.com/my-site/
-        required: true
-        hidden: true
-      - type: string
         name: domain
         label: Domain
         description: >-
           The domain of your site, including the protocol, e.g.
-          https://www.example.com/
+          https://mysite.com/
       - type: image
         name: favicon
         label: Favicon
@@ -274,7 +255,7 @@ models:
     type: page
     label: Page
     layout: page
-    exclude: posts/**
+    exclude: _posts/**
     fields:
       - type: string
         name: title
@@ -293,7 +274,7 @@ models:
     type: page
     urlPath: '/posts/{slug}'
     label: Post
-    folder: posts
+    folder: _posts
     layout: post
     fields:
       - type: string
