@@ -1,60 +1,54 @@
-# ✨ Stackbit Vanilla Theme - Jekyll ✨
+# ✨ Vanilla Nextjs Theme ✨
 
-This is a [Jekyll](https://jekyllrb.com) theme using Git as a CMS. It was created with [Stackbit](https://www.stackbit.com?utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes) in under a minute.
+This is Stackbit's "Vanilla" theme built with [Next.js](https://nextjs.org/) and
+powered by content stored in files.
 
-[![Create with Stackbit](https://assets.stackbit.com/badge/create-with-stackbit.svg)](https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/vanilla-jekyll&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes)
+Click the button below to create a new website from this theme using Stackbit:
 
-You can [create a site](https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/vanilla-jekyll&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes) from this theme, or explore some variations. How about a different:
+<p align="center">
+  <a href="https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/vanilla-nextjs&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes"><img alt="Create with Stackbit" src="https://assets.stackbit.com/badge/create-with-stackbit.svg"/></a>
+</p>
 
-<details>
-        <summary>⚙️ &nbsp;<strong>Static site generator</strong></summary>
-        <ul>
-                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit/stackbit-theme-vanilla&ssg=gatsby&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes">Gatsby</a></li>
-                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit/stackbit-theme-vanilla&ssg=nextjs&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes">Next.js</a></li>
-                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit/stackbit-theme-vanilla&ssg=hugo&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes">Hugo</a></li>
-                </ul>
-</details>
+[Live Site Demo](https://themes.stackbit.com/demos/vanilla/)
 
-<details>
-        <summary>✏️ &nbsp;<strong>CMS</strong></summary>
-        <ul>
-                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit/stackbit-theme-vanilla&cms=datocms&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes">Dato CMS</a></li>
-                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit/stackbit-theme-vanilla&cms=netlifycms&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes">Netlify CMS</a></li>
-                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit/stackbit-theme-vanilla&cms=forestry&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes">Forestry</a></li>
-                </ul>
-</details>
+<img src="https://themes.stackbit.com/images/vanilla-demo-1024x768.png" width="600">
 
-## Contributing
+The theme can be used to create a static website that is hosted by a serverless
+deployment platform such as [Netlify](https://www.netlify.com). The contents of
+the website are stored in git with the rest of the site's code.
 
-This repository is auto-generated and can not receive pull-requests. If you have any suggestions or feedback you are welcome to submit an issue.
+When deploying the website, [Sourcebit](https://github.com/stackbithq/sourcebit)
+reads the site's contents from files and provides it to Next.js. Once Next.js
+finishes generating the static website, [Netlify](https://www.netlify.com) pushes
+the static files to its CDN.
 
-## Develop Locally
-
-1. Install a full [Ruby development environment](https://jekyllrb.com/docs/installation/)
-
-1. Install Jekyll and Bundler:
-
-        gem install jekyll bundler
-
-1. Install dependencies from Gemfile:
-
-        bundle install
+[Sourcebit](https://github.com/stackbithq/sourcebit) and its plugins, specifically
+[`sourcebit-source-filesystem`](https://github.com/stackbithq/sourcebit-source-filesystem)
+and [`sourcebit-target-next`](https://github.com/stackbithq/sourcebit-target-next),
+are used to read the site's contents from files, normalize it, and provide it to
+Next.js pages. It also sets up live updates in development mode allowing you to
+update the content files and instantly see your updates in the browser.
 
 
+## Quick Start 🏎
 
-1. Build the site and start the Jekyll local development server
+[Create a site](https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/vanilla-nextjs&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes) from this theme using Stackbit.
 
-        bundle exec jekyll serve --livereload
+Stackbit will execute following steps for you
 
-1. Open [http://localhost:4000](http://localhost:4000) in the browser
+- Create a new GitHub repository with the contents of this repository.
+- Create [Netlify](https://www.netlify.com) site connected to the GitHub repo
+- Deploy the Netlify site.
+- Create a "commit" webhook in GitHub that will trigger Netlify deployment as
+  soon as new commit is pushed to GitHub.
+- Create a Stackbit project that will allow you edit your website via on-page
+  visual editing experience. 
 
-1. 🎉
 
-## Editing Content
+## Editing Content 📝
 
-To start editing your site, you can edit the included Markdown files.
-
-Alternatively, create a new site with Stackbit from this theme and use the free on-page editing experience provided by the [Stackbit Studio](https://stackbit.com?utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes).
+Once Stackbit creates a site, you can start editing the content using the free
+on-page editing experience provided by the [Stackbit Studio](https://stackbit.com?utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes).
 
 [![](https://i3.ytimg.com/vi/zd9lGRLVDm4/hqdefault.jpg)](https://stackbit.link/project-readme-lead-video)
 
@@ -68,6 +62,41 @@ Here's a few resources to get you started:
 
 If you need a hand, make sure to check the [Stackbit support page](https://stackbit.link/project-readme-support).
 
-## Colophon
 
-Generated at `2021-07-13T20:46:46.385Z` by Stackbit version `0.3.53`.
+## Develop Locally
+
+1. [Create a site](https://app.stackbit.com/create?theme=https://github.com/stackbit-themes/vanilla-nextjs&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes) from this theme using Stackbit.
+
+2. Once finished, you will be redirected to Stackbit Studio where you will be
+   able to edit the content using the free on-page editing experience, and
+   publish new versions of your site.
+
+3. To further develop your site, clone the generated repository.
+
+4. Install dependencies
+
+       run npm install
+       
+5. Start the Next.js local development server:
+
+        npm run develop
+
+6. Open [http://localhost:3000/](http://localhost:3000/) in the browser to see
+   your site. You can now edit the site contents, and the browser will
+   live-update your changes. 🎉
+
+
+## Building for production 🏗
+
+To build a static site for production, or test locally how it worls, run the
+following command:
+
+    npm run build
+
+The exported site will be written to `out` folder. The contents of this folder 
+can be deployed by serverless deployment platform such as [Netlify](https://www.netlify.com).
+You can start a local server serving the static files from the `out` folder, for
+example by installing and running `http-server`:
+
+    npm install http-server -g
+    http-server out
