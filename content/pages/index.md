@@ -21,14 +21,14 @@ Pro articles need pro language. You do the research, we do the editing and trans
     type: section_content
     image_alt: Geometric pattern
 seo:
-  title: Stackbit Vanilla Theme
-  description: The preview of the Vanilla theme
+  title: Pro English Editing
+  description: Pro English Editing
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Vanilla Theme
+      value: Pro English Editing
       keyName: property
     - name: 'og:description'
       value: The preview of the Vanilla theme
