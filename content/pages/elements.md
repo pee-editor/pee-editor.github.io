@@ -1,23 +1,23 @@
 ---
 seo:
-  title: UI Kit
-  description: This is the UI kit page
+  title: About US
+  description: This is the About US page
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: UI Kit
+      value: About US
       keyName: property
     - name: 'og:description'
-      value: This is the UI kit page
+      value: This is the About US page
       keyName: property
     - name: 'twitter:card'
       value: summary
     - name: 'twitter:title'
-      value: UI Kit
+      value: About US
     - name: 'twitter:description'
-      value: This is the UI kit page
+      value: This is the About US page
 layout: page
 title: About US
 ---

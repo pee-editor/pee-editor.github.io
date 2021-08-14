@@ -2,24 +2,24 @@
 title: Good Price & High Quality
 subtitle: Supporting you in every phase of publishing
 seo:
-  title: Just a Generic Page
-  description: This is a generic page
+  title: Pricing
+  description: This is Pricing
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Just a Generic Page
+      value: Pricing
       keyName: property
     - name: 'og:description'
-      value: This is a generic page
+      value: Pricing
       keyName: property
     - name: 'twitter:card'
       value: summary
     - name: 'twitter:title'
       value: Just a Generic Page
     - name: 'twitter:description'
-      value: This is a generic page
+      value: Pricing
 layout: page
 ---
 We know how much effort goes into publishing a paper. Our team of PhD experts provide English language editing, academic translation and other manuscript preparation services, all backed by our 100% satisfaction guarantee. We specialize in helping researchers, scientists, and scholars to communicate their findings with a variety of services. At PEE we pride ourselves in consistently delivering the highest quality services in the industry.
