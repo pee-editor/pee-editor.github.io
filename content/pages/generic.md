@@ -51,7 +51,7 @@ When sending your manuscript to us, please clearly state the type of service you
 
 ## Editing
 
-![Block Image](/images/1.svg)
+![Block Image](/images/editing.png)
 
 ## Translation
 ![Block Image](/images/translation.png)
