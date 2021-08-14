@@ -11,7 +11,10 @@ sections:
   - title: Text
     section_id: intro
     type: section_content
-    content: "### PEE helps you share your research with the world\n\nPro articles need pro language. You do the research, we do the editing and translating.\n\nOur team specializes in research papers and reviews in engineering, mechanics, and earth sciences.\n\nAt PAE, we strive to consistently deliver exceptional and high-quality services to our customers.\n\nWe are not the largest, but we are trying to be the best.\n\n### Language Editing\_\n\nHighest standard English editing from an experienced editor in your field to ensure that your article is ready for journal submission\_\n\n### Translation\n\nTranslation of your article from Chinese into high quality submission ready English\n\n### Formatting\n\nManuscript and reference (within and at the end of the paper) formatting according to your selected journal’s requirements\n\n### Journal Recommendation\n\nCarefully selecting 3 journals to match your research topics while considering chance of acceptance and impact factor\n\n### Feel free to contact us;\n\nEmail:pee.editor@outlook.com\n\n"
+    content: "### PEE helps you share your research with the world\n\n
+Pro articles need pro language. You do the research, we do the editing and translating.\n\nOur team specializes in research papers and reviews in engineering, mechanics, and earth sciences.\n\nAt PAE, we strive to consistently deliver exceptional and high-quality services to our customers.\n\nWe are not the largest, but we are trying to be the best.\n\n### Language Editing\_\n\nHighest standard English editing from an experienced editor in your field to ensure that your article is ready for journal submission\_\n\n### Translation\n\nTranslation of your article from Chinese into high quality submission ready English\n\n### Formatting\n\nManuscript and reference (within and at the end of the paper) formatting according to your selected journal’s requirements\n\n### Journal Recommendation\n\nCarefully selecting 3 journals to match your research topics while considering chance of acceptance and impact factor\n\n
+### 25% Discount Now!\n\n
+### Feel free to contact us;\n\nEmail:pee.editor@outlook.com\n\n"
     image_alt: test
   - title: A Cat
     section_id: cat
