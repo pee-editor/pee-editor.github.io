@@ -26,7 +26,7 @@ We know how much effort goes into publishing a paper. Our team of PhD experts pr
 
 For all services we will email you an invoice and link for payment. The price is in USD. Payment options are: AliPay, WeChat Pay, credit card and wire transfer
 
-### 35% Discount Now!\n\n
+#### 35% Discount Now!\n\n
 
 ### Standard Editing
 
